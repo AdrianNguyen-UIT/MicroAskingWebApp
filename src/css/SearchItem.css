@@ -1,0 +1,31 @@
+.searchItem {
+    margin-bottom: 9px;
+    padding: 0;
+    display: flex;
+    z-index: 10;
+}
+
+.searchItem:hover {
+    background-color: var(--clr-search_item_hover);
+}
+
+.searchItem:active {
+    background-color: var(--clr-search_item_active);
+}
+
+.searchItem-text {
+    height:  max(9vh, 3rem);
+    width: max(60vw, 3rem);
+    font-size: max(2vw, 1.5rem);
+    padding: 20px;
+    padding-top: min(0.8vh + 0.5rem, 0.8vw + 0.5rem);
+    text-align: left;
+    overflow: clip;
+    color:var(--fclr-search_text);
+    position: relative;
+    z-index: 10;
+}
+
+b {
+    font-size: max(2.2vw, 1.7rem);
+}

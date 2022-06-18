@@ -1,0 +1,46 @@
+.resultItem {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+}
+
+.resultText {
+    background-image: linear-gradient(to right, rgb(10, 78, 117), rgb(55, 94, 36));
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    border-style: solid;
+}
+
+.resultText p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.naviIcon {
+    display: grid;
+    place-items: center;
+    background-color:rgb(55, 94, 36);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.naviIcon svg {
+    font-size: max(3vw, 1.5rem);
+    color: var(--clr_search_border);
+}
+
+.border-normal {
+    border-color: var(--clr-border_inactive);
+}
+
+.border-hover {
+    border-color: var(--clr-border_active);
+}

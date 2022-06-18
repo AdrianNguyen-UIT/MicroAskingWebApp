@@ -1,0 +1,15 @@
+
+.searchBar {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    max-height: 70vh;
+    border-color: var(--clr_search_border);
+    background-color: var(--clr_search_background);
+    overflow: hidden;
+    position: relative;
+}

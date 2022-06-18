@@ -1,0 +1,20 @@
+.resultContainer {
+    margin: 20px;
+    max-height: 80vh;
+    width: 50vw;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: var(--clr_search_border);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.resultContainer::-webkit-scrollbar {
+    display: none;
+  }
+  

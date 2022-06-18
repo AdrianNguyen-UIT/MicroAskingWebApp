@@ -1,0 +1,23 @@
+.questionItem {
+    width: 90%;
+    margin: 10px;
+
+    background-image: linear-gradient(to right, rgb(55, 94, 36), rgb(10, 78, 117));
+    border-radius: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-color: var(--clr-border_inactive);
+    cursor: pointer;
+}
+
+.questionItem p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.questionItem:hover {
+    width: 95%;
+    border-color: var(--clr-border_active);
+}
